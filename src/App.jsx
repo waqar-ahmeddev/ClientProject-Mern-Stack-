@@ -1,7 +1,7 @@
 import React from 'react';
 import Backgroundimage from './Components/Header/Backgroundimage';
 import Backgroundimage2 from './Components/Next2page/Backgroundimage2';
-
+import Backgroundimage3 from './Components/Next3page/Backgroundimage3';
 function App() {
   return (
     // overflow-x-hidden lagaya taaki left-right scroll bilkul block ho jaye
@@ -16,7 +16,9 @@ function App() {
       <section className="w-full min-h-screen relative z-20">
         <Backgroundimage2 />
       </section>
-
+      <section className="w-full min-h-screen relative z-20">
+        <Backgroundimage3 />
+      </section>
     </div>
   );
 }

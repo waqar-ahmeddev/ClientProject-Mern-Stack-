@@ -10,7 +10,7 @@ import ImageGallery from './ImageGallery';
 const Backgroundimage2 = () => {
   return (
     // 🔥 Inline style se hata kar image ko standard tailwind layers me set kiya ha taaki full width responsive rahe
-    <div className="relative w-full min-h-screen z-20 flex flex-col justify-center overflow-hidden bg-black">
+    <div className="relative w-full min-h-screen z-20 flex flex-col justify-center overflow-hidden bg-black pb-28">
       
       {/* 1. Asli Background Image Layer */}
       <div 
@@ -37,7 +37,7 @@ const Backgroundimage2 = () => {
           <Card4 />
         </div>
       </div>
-      <div className="w-full border-t border-white/10 pt-8"> 
+      <div className="w-full border-t border-white/10 pt-8 -mt-20"> 
           <ImageGallery />
         </div>
     </div>

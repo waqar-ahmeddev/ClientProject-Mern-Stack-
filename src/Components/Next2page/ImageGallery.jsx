@@ -19,7 +19,7 @@ const ImageGallery = () => {
   };
 
   return (
-    <div className="w-full py-4 -mt-10 px-6 sm:px-8 select-none">
+    <div className="w-full py-4 -mt-7 px-6 sm:px-8 select-none">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
 
         {/* LEFT IMAGE */}
