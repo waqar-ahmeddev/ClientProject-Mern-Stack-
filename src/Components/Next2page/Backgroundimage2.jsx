@@ -5,6 +5,7 @@ import Content from './Content';
 import Card2 from './Card2';
 import Card3 from './Card3';
 import Card4 from './Card4';
+import ImageGallery from './ImageGallery';
 
 const Backgroundimage2 = () => {
   return (
@@ -35,8 +36,10 @@ const Backgroundimage2 = () => {
           <Card3 />
           <Card4 />
         </div>
-
       </div>
+      <div className="w-full border-t border-white/10 pt-8"> 
+          <ImageGallery />
+        </div>
     </div>
   );
 };

@@ -20,7 +20,7 @@ const Quote = () => {
       </div>
 
       {/* Down Arrow Icon Animation */}
-      <div className="animate-bounce cursor-pointer mt-4 pl-155">
+      <div className="animate-bounce cursor-pointer -mt-8 pl-155">
         <svg 
           className="w-24 h-24 text-white/90 stroke-[3]" 
           fill="none" 
