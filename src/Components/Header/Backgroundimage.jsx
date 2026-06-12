@@ -7,7 +7,6 @@ import Quote from './Quote';
 const BackgroundImage = () => {
   return (
     <>
-      {/* Main Background Container */}
       <div 
         style={{
           backgroundImage: `url(${image1})`,
@@ -19,7 +18,7 @@ const BackgroundImage = () => {
           position: 'fixed',
           top: 0,
           left: 0,
-          zIndex: -1,
+          zIndex: 0,
         }}
       >
         <div 
@@ -29,10 +28,12 @@ const BackgroundImage = () => {
             backgroundColor: 'rgba(0, 0, 0, 0.45)', 
           }}
         />
-      </div>
+      </div >
+      <div className="relative z-10 w-full">
       <Header />
       <Content />
       <Quote />
+      </div>
     </>
   );
 };
