@@ -1,10 +1,13 @@
 import React from 'react'
 import Card from './Card'
 
-const Card2 = () => {
+const Card2 = (props) => {
   return (
     <div>
-        <Card />
+        <Card 
+        title={props.title}
+         description={props.description}
+        />
     </div>
   )
 }

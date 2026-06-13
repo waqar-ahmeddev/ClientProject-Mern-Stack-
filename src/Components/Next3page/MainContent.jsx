@@ -44,7 +44,7 @@ const MainContent = () => {
 
       {/* 2. RIGHT SIDE: Window Image Block */}
       {/* 🚀 lg:w-[35%] kiya ha aur items-end taaki yeh left wale text se bilkul dhoor extreme right par show ho */}
-      <div className="w-full lg:w-[35%] flex justify-center lg:justify-end lg:mt-6 ">
+      <div className="w-full lg:w-[35%] flex justify-center lg:justify-end lg:mt-6 transition-transform duration-300 hover:scale-95 cursor-pointer">
         <img 
           src={Door} 
           alt="Window Showcase" 
