@@ -28,7 +28,7 @@ const ImageGallery = () => {
             src={images[currentIndex]}
             alt="Gallery Left"
             className="w-full h-full object-cover transition-all duration-700 ease-in-out group-hover:scale-105"
-            style={{ filter: 'brightness(1.5) saturate(1.1)' }}
+            style={{ filter: 'brightness(2) saturate(1.1)' }}
           />
           <button
             onClick={handlePrevPair}
