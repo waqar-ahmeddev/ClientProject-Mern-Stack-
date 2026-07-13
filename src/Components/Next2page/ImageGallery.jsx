@@ -23,12 +23,12 @@ const ImageGallery = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
 
         {/* LEFT IMAGE */}
-        <div className="relative group overflow-hidden rounded-[2rem] cursor-pointer shadow-2xl aspect-[16/12] w-full">
+        <div className="relative group overflow-hidden rounded-[2rem] cursor-pointer  aspect-[16/12] w-full">
           <img
             src={images[currentIndex]}
             alt="Gallery Left"
             className="w-full h-full object-cover transition-all duration-700 ease-in-out group-hover:scale-105"
-            style={{ filter: 'brightness(2) saturate(1.1)' }}
+            style={{ filter: 'brightness(1.3)' }}
           />
           <button
             onClick={handlePrevPair}
@@ -49,7 +49,7 @@ const ImageGallery = () => {
             src={images[(currentIndex + 1) % images.length]}
             alt="Gallery Right"
             className="w-full h-full object-cover transition-all duration-700 ease-in-out group-hover:scale-105"
-            style={{ filter: 'brightness(1.5) saturate(1.1)' }}
+            style={{ filter: 'brightness(1.5)' }}
           />
           <button
             onClick={handleNextPair}

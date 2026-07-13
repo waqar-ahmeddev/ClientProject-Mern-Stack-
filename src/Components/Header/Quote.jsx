@@ -11,7 +11,7 @@ const Quote = ({ isDarkBg = true, showArrow = true }) => {
         
         {/* Get a Quote Button */}
         {/* 🚀 Dynamic Tailwind Classes: Agar isDarkBg false ha toh border-black aur text-black ho jayega */}
-        <button className={`px-10 py-4 text-2xl font-semibold border-2 rounded-full bg-transparent transition-all duration-300 min-w-[220px]
+        <button className={` cursor-pointer px-10 py-4 text-2xl font-semibold border-2 rounded-full bg-transparent transition-all duration-300 min-w-[220px]
           ${isDarkBg 
             ? 'text-white border-white/80 hover:bg-white hover:text-black' 
             : 'text-black border-black hover:bg-black hover:text-white'
@@ -21,7 +21,7 @@ const Quote = ({ isDarkBg = true, showArrow = true }) => {
         </button>
 
         {/* Book a Consultation Button */}
-        <button className={`px-10 py-4 text-2xl font-semibold border-2 rounded-full bg-transparent transition-all duration-300 min-w-[260px]
+        <button className={`cursor-pointer px-10 py-4 text-2xl font-semibold border-2 rounded-full bg-transparent transition-all duration-300 min-w-[260px]
           ${isDarkBg 
             ? 'text-white border-white/80 hover:bg-white hover:text-black' 
             : 'text-black border-black hover:bg-black hover:text-white'

@@ -4,8 +4,7 @@ import LOGOnero from './assets/LOGOnero.png';
 
 const Quotebutt = () => {
   return (
-    // 🚀 gap-10 ko hata kar items-start rakha ha taaki spacing control me rahe
-    <div className="w-full flex flex-col items-start justify-start select-none">
+    <div className="w-full flex flex-col items-start justify-start gap-4 select-none">
       
       {/* 1. Buttons Block */}
       <div className="w-full">
@@ -13,8 +12,7 @@ const Quotebutt = () => {
       </div>
       
       {/* 2. Logo Block */}
-      {/* 🚀 -mt-12 lagane se logo Quote buttons ke kafi close (upar) aa jayega */}
-      <div className="w-full max-w-[180px] -mt-12 opacity-90 hover:opacity-100 transition-opacity pl-2 ml-35">
+      <div className="w-full max-w-[180px] mx-auto -mt-10 ml-38 opacity-90 hover:opacity-100 transition-opacity">
         <img 
           src={LOGOnero} 
           alt="Nero Logo" 
